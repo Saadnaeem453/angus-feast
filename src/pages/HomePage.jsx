@@ -9,8 +9,8 @@ const HomePage = () => {
     { day: 'Tue', hours: '13:00 – 23:00' },
     { day: 'Wed', hours: '13:00 – 23:00' },
     { day: 'Thu', hours: '13:00 – 23:00' },
-    { day: 'Fri', hours: '13:00 – 23:30' },
-    { day: 'Sat', hours: '13:00 – 23:30' },
+    { day: 'Fri', hours: '13:00 – 23:00' },
+    { day: 'Sat', hours: '13:00 – 23:00' },
     { day: 'Sun', hours: '13:00 – 23:00' },
   ];
 
