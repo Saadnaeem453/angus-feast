@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'; // Social 
 
 const ContactUs = () => {
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4 pt-40 ">
       <div className="container mx-auto">
         {/* Header */}
         <header className="text-center mb-12">
@@ -56,7 +56,7 @@ const ContactUs = () => {
               {/* Social Media Icons */}
               <div className="mt-12">
                 <h4 className="text-xl font-semibold text-white mb-4">Follow Us</h4>
-                <div className="flex justify-between sm:space-x-6">
+                <div className="flex justify-between sm:justify-start sm:space-x-6">
                   <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-500 transition duration-300">
                     <FaFacebookF className="text-3xl" />
                   </a>

@@ -12,7 +12,7 @@ const OpeningHours = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4 pt-40">
       <div className="container mx-auto">
         {/* Header */}
         <header className="text-center mb-12">

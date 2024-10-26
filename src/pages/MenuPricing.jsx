@@ -45,10 +45,10 @@ const MenuCard = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4 pt-40">
       <div className="flex justify-center flex-col items-center text-center">
         <h1 className=" text-3xl sm:text-5xl font-bold text-white mb-4">Menu Card</h1>
-        <p className="text-lg italic text-gray-400 pb-10">&quot;Exquisite flavors crafted with care&quot;</p>
+        <p className="text-lg italic text-gray-400 pb-20">&quot;Exquisite flavors crafted with care&quot;</p>
       </div>
       
       <div className="container mx-auto max-w-4xl">

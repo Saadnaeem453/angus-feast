@@ -1,15 +1,13 @@
-import React from 'react';
-import { FiCheckCircle } from 'react-icons/fi'; // React Icons for features
 import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'; // Social Media Icons
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4">
+    <div className="bg-gray-900 text-gray-200 min-h-screen py-16 px-4 pt-40">
       <div className="container mx-auto">
         {/* Header Section */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-4">About Us</h1>
-          <p className="text-xl text-gray-400 italic">"Crafting exquisite flavors for memorable moments"</p>
+          <p className="text-xl text-gray-400 italic">&quot;Crafting exquisite flavors for memorable moments&quot;</p>
         </header>
 
         {/* Intro Section */}
@@ -43,7 +41,7 @@ const AboutUs = () => {
             <h2 className="text-4xl font-bold text-yellow-500 mb-4">Our Story</h2>
             <p className="text-lg text-gray-400 mb-6">
               It all began with our founder, **Adrian Venoin**, who envisioned creating a fast-food restaurant that breaks the mold. From humble beginnings, Angus Feast
-              has grown into a destination for those seeking not just a meal, but an unforgettable dining experience. Whether you're looking for a casual lunch or a
+              has grown into a destination for those seeking not just a meal, but an unforgettable dining experience. Whether you&apos;re looking for a casual lunch or a
               sophisticated dinner, we deliver excellence every time.
             </p>
             <p className="text-lg text-gray-400">
@@ -84,7 +82,7 @@ const AboutUs = () => {
         <section className="bg-gray-900 text-center mb-16">
           <h2 className="text-4xl font-bold text-yellow-500 mb-8">Join Us for a Unique Dining Experience</h2>
           <p className="text-xl text-gray-400 mb-8">
-            Whether you're visiting for a casual meal or a special occasion, we promise to deliver an experience that blends comfort, luxury, and unforgettable flavors.
+            Whether you&apos;re visiting for a casual meal or a special occasion, we promise to deliver an experience that blends comfort, luxury, and unforgettable flavors.
           </p>
           <a
             href="#book"

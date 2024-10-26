@@ -22,7 +22,7 @@ const HomePage = () => {
   const currentDay = getCurrentDay();
 
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-white text-gray-900 ">
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[80vh] overflow-hidden"
@@ -32,7 +32,7 @@ const HomePage = () => {
 
        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent opacity-90 flex justify-center items-center">
   <div className="text-center animate-fadeIn">
-    <h1 className="text-5xl md:text-7xl font-serif font-bold text-white tracking-widest drop-shadow-lg animate-slideUp">
+    <h1 className="text-4xl md:text-7xl font-serif font-bold text-white tracking-widest drop-shadow-lg animate-slideUp">
       Welcome to <span className="text-yellow-500 font-luxury">Angus Feast</span>
     </h1>
     <p className="text-2xl text-gray-200 mt-4 font-light italic drop-shadow-lg tracking-wide animate-fadeIn delay-200">
@@ -40,7 +40,7 @@ const HomePage = () => {
     </p>
     <a
   href="#book"
-  className="mt-8 inline-block px-10 py-4 bg-gradient-to-r from-yellow-600 to-[#D4AF37] text-white rounded-full shadow-lg text-xl font-semibold tracking-wide transition-transform transform hover:scale-105 hover:shadow-[0px_0px_15px_#FFD700] duration-300 ease-in-out border-2 border-[#B8860B]"
+  className="mt-8 inline-block px-8 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-yellow-600 to-[#D4AF37] text-white rounded-full shadow-lg text-xl font-semibold tracking-wide transition-transform transform hover:scale-105 hover:shadow-[0px_0px_15px_#FFD700] duration-300 ease-in-out border-2 border-[#B8860B]"
 >
   Book Now
 </a>
@@ -56,7 +56,7 @@ const HomePage = () => {
 
       {/* Social Section */}
       <section className="py-12 bg-gray-100 text-center">
-        <h2 className="text-4xl font-bold mb-8 font-bebas-neue">Connect with Us</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 font-bebas-neue">Connect with Us</h2>
         <div className="flex justify-center items-center space-x-4">
           <img src={fbimg} className="w-12 h-12 hover:scale-105 transition-transform duration-300" alt="Facebook" />
           <a
