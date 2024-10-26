@@ -32,7 +32,7 @@ const HomePage = () => {
 
        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent opacity-90 flex justify-center items-center">
   <div className="text-center animate-fadeIn">
-    <h1 className="text-4xl md:text-7xl font-serif font-bold text-white tracking-widest drop-shadow-lg animate-slideUp">
+    <h1 className="text-4xl md:text-7xl font-serif font-bold text-white tracking-widest drop-shadow-lg animate-slideUp px-5">
       Welcome to <span className="text-yellow-500 font-luxury">Angus Feast</span>
     </h1>
     <p className="text-2xl text-gray-200 mt-4 font-light italic drop-shadow-lg tracking-wide animate-fadeIn delay-200">
